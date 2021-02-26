@@ -146,7 +146,6 @@ class App {
                 return activateSlider(data);
             };
             const countdown = allFunctions.countdownFunction(data); 
-            //-------------------YOU MUST WRITE SLIDERS WITH COUNTER DONT FORGET---------------------
             menu();
             slider({
                 productSlider: {
@@ -171,7 +170,6 @@ class App {
                 }
             });
             countdown();
-            //---------------
         };
         return activateAllFunctions(data);
     };
